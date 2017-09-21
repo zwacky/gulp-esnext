@@ -30,11 +30,13 @@
     "transpiler"
   ],
   "dependencies": {
-    "esnext": "^0.14.0",
     "gulp-util": "^3.0.0",
     "object-assign": "^4.0.1",
     "through2": "^2.0.0",
     "vinyl-sourcemaps-apply": "^0.2.0"
+  },
+  "peerDependencies": {
+    "esnext": "^0.14.0"
   },
   "devDependencies": {
     "gulp-sourcemaps": "^1.1.1",
